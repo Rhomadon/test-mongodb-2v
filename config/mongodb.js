@@ -10,7 +10,7 @@ client.connect((error, client) => {
     if(error) {
         return console.log('Database not Connected...')
     }
-    console.log('Database Connected...')
+    console.log('Database native connected...')
 })
 
 const db = client.db('mern_db')
